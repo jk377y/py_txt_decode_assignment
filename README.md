@@ -6,7 +6,6 @@
 I had to create a Python script that would take data from a .txt file and then find a secret message embedded within it. The text file consisted of unique numbers and words such as this:<br>
 <img src="images/coding_qual_input.JPG" alt="coding_qual_input.JPG" width="200" height="300">
 <br>
-<br>
 
 The next step I took was to organize that data into a Python dictionary as key value pairs and sort them by the numerical value:<br>
 <img src="images/sorted_key_value_pairs.JPG" alt="sorted_key_value_pairs.JPG" width="1200"/>
