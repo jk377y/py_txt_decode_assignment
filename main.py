@@ -11,7 +11,6 @@ def create_dict(message_file):
     # print(sorted_key_value_pairs)  # for testing
     return sorted_key_value_pairs
 
-
 def create_pyramid(sorted_key_value_pairs):
     pyramid = []
     current_row = []
@@ -31,6 +30,7 @@ def decode_message(pyramid):
     if last_word_last_subset:
         last_row_words.append(last_word_last_subset)
     decoded_message = " ".join(last_row_words)
+    # print("Decoded Message:", decoded_message)  # for testing
     return decoded_message
 
 sorted_key_value_pairs = create_dict(message_file)
